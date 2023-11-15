@@ -1,3 +1,19 @@
+console.log('this works')
+
+let sentence = 'My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky.'
+console.log(sentence)
+
+let nouns = ["heart","ocean","mountain"] //array
+let verbs = ["look","make","continue"];
+let adjectives = ["good","different", "possible"];
+
+let noun = nouns[Math.floor(Math.random() * nouns.length)]
+
+console.log(noun)
+
+
+
+
 /*
     ----------------------------------------
     PART 1
@@ -26,4 +42,6 @@
     let adjectives = ["good", "different", "possible"];
 
 */
+
+
 
