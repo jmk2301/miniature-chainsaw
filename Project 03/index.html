@@ -1,8 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LETS BAKE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
 <body>
+
+  <div class="list">
+    <h2>Recipe Inspiration Generator</h2>
+    <ul></ul>
+  </div>
+
+  <div>
+    <marquee>What should I make today?</marquee>
+  </div>
+
     <div class="container">
       <section class="first"></section>
       <section class="second"></section>
       <section class="third"></section>
       <section class="fourth"></section>
     </div>
+
   </body>
+
+  <br>
+  <br>
+
+  <div id="Push my Buttons">
+  <div class="container">
+    <div class="filters">
+        <h2>Recipe Filters</h2>
+
+        <br>
+
+        <button class="filter-btn" ="filterSelection('all')">All</button>
+        <button class="filter-btn" onclick="filterSelection('pie')">Pies</button>
+        <button class="filter-btn" onclick="filterSelection('cookie')">Cookies</button>
+        <button class="filter-btn" onclick="filterSelection('cake')">Cake</button>
+        <button class="filter-btn" onclick="filterSelection('other')">Other</button>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+    <section class="grid">
+    <article class="column cookies">
+        <figure class="image-container">
+            <img src="../Project 03/Images/01_Cookies/Banana Drop Cookies.jpg" alt="">
+        </figure>
+        <div class="content-container"></div>
+        <h3>Banana Drop Cookies</h3>
+    </article>
+
+    <article class="column pie">
+        <figure class="image-container">
+            <img src="../Project 03/Images/02_Pies/Apple Crisp.jpg" alt="">
+        </figure>
+        <div class="content-container"></div>
+        <h3>Apple Crisp</h3>
+      </article>
+
+    <article class="column cake">
+        <figure class="image-container">
+            <img src="../Project 03/Images/03_Cakes/Angel Food Cake.jpg">
+        </figure>
+        <div class="content-container"></div>
+        <h3>Angels Food Cake</h3>
+    </article>
+
+    <article class="column other">
+      <figure class="image-container">
+          <img src="../Project 03/Images/04_Other/4-Chip Marshmallow Fudge.jpg">
+      </figure>
+      <div class="content-container"></div>
+      <h3>4-Chip Marshmallow Fudge</h3>
+  </article>
+
+  <article class="column cookie">
+    <figure class="image-container">
+        <img src="../Project 03/Images/01_Cookies/Butter Cookies.jpg">
+    </figure>
+    <div class="content-container"></div>
+    <h3>Butter Cookies</h3>
+</article>
+</section>
+
+  <div>
+      <Footer>
+          <marquee>Bon Appétit</marquee>
+      </Footer>
+  </div>
+
+</body>
+</html>

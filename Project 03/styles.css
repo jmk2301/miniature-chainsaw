@@ -1,48 +1,138 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body {
-    color: #f2f2f2;
-  }
-  
-  .container {
-    display: flex;
-    overflow-x: auto;
-    height: 100%;
-  }
-  
-  .container::-webkit-scrollbar {
-    display: none;
-  }
-  
-  section {
-    flex-grow: 1;
-    min-width: 100%;
-  }
-  
-  .first {
-    background: tomato;
-  }
-  
-  .second {
-    background: blue;
-  }
-  
-  .third {
-    background: orange;
-  }
-  
-  .fourth {
-    background: lemonchiffon;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
+html,
+body {
+  height: 95%;
+  width: 95%;
+}
+
+.container {
+  display: flex;
+  overflow-x: auto;
+  height: 100%;
+  width: 100vw;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  flex-grow: 1;
+  min-width: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.first {
+  background:	#ffd7bc;
+}
+
+.second {
+  background: #ffebd3
+}
+
+.third {
+  background: #b9dbe7
+}
+
+.fourth {
+  background: #92c3d6;
+}
+
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ffb8d4;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+h3{
+  color: rgb(95, 95, 95);
+  text-align-last: center;
+  padding-top: 6px;
+}
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  color: rgb(162, 162, 162);
+  background-color: rgb(255, 248, 248);
+  padding-left: 10px;
+  padding-right: 10px;
+  align-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 2em;
+}
+
+article {
+  padding: 20px;
+  border: 6px solid #5389ff;
+  background: #d3edff;
+  border-radius: 30px;
+}
+.image-container img {
+  width: 100%;
+}
+
+footer{
+  padding-top: 150px;
+}
+
+/* My Buttons */
+.filter-btn{
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.filter-btn:hover{
+  background-color: #ddd;
+}
+
+.filter-btn:active{
+  background-color: #666;
+   color: white;
+}
+
+marquee{
+  font-size: large;
+}
+
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
