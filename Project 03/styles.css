@@ -88,9 +88,9 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: repeat(25, 1fr);
-  grid-gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
   justify-items: center;
 }
 
@@ -132,7 +132,7 @@ footer{
    color: #ffb8d4;
 }
 
-/* Add padding BETWEEN each column (if you want) */
+/* Add padding BETWEEN each column
 .row,
 .row > .column {
   padding: 8px;
@@ -141,7 +141,7 @@ footer{
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 80%;
   display: none; /* Hide columns by default */
 }
 
