@@ -21,6 +21,7 @@ body {
   display: none;
 }
 
+
 section {
   flex-grow: 1;
   min-width: 100%;
@@ -29,19 +30,39 @@ section {
 }
 
 .first {
-  background:	#ffd7bc;
+  background:#ffd7bc;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#ffb8d4;
+  text-align:center;
+  font-size: 200px;
+  padding-top: 300px;
 }
 
 .second {
-  background: #ffebd3
+  background: #ffebd3;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#ffb8d4;
+  text-align:center;
+  font-size:200px;
+  padding-top:300px;
 }
 
 .third {
-  background: #b9dbe7
+  background: #b9dbe7;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#ffb8d4;
+  text-align:center;
+  font-size:200px;
+  padding-top:300px;
 }
 
 .fourth {
-  background: #92c3d6;
+  background:#92c3d6;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#ffb8d4;
+  text-align:center;
+  font-size:200px;
+  padding-top:300px;
 }
 
 
@@ -52,12 +73,9 @@ h1{
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  font-size: 50px;
 }
-h3{
-  color: rgb(95, 95, 95);
-  text-align-last: center;
-  padding-top: 6px;
-}
+
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: small;
@@ -70,9 +88,10 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: auto auto auto;
+  grid-template-rows: repeat(25, 1fr);
   grid-gap: 2em;
+  justify-items: center;
 }
 
 article {
@@ -80,9 +99,12 @@ article {
   border: 6px solid #5389ff;
   background: #d3edff;
   border-radius: 30px;
+  max-width: 100%;
 }
+
 .image-container img {
   width: 100%;
+  height: 100%;
 }
 
 footer{
@@ -91,11 +113,14 @@ footer{
 
 /* My Buttons */
 .filter-btn{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border: none;
   outline: none;
-  padding: 12px 16px;
+  padding: 20px 16px;
   background-color: white;
   cursor: pointer;
+  border: 6px solid #5389ff;
+  border-radius: 10px;
 }
 
 .filter-btn:hover{
@@ -104,13 +129,8 @@ footer{
 
 .filter-btn:active{
   background-color: #666;
-   color: white;
+   color: #ffb8d4;
 }
-
-marquee{
-  font-size: large;
-}
-
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
@@ -135,4 +155,9 @@ marquee{
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
+}
+
+.marquee{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
 }
