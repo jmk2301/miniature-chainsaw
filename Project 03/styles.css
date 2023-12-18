@@ -30,7 +30,8 @@ section {
 }
 
 .first {
-  background:#ffd7bc;
+  background:url(https://www.mrsfields.com/cdn/shop/files/2022_MFC_Mega_Cookie_Combo1_v2_Web_2250.jpg?v=1689283523&width=1946);
+  border: 100px solid #ffd7bc;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color:#ffb8d4;
   text-align:center;
@@ -39,7 +40,8 @@ section {
 }
 
 .second {
-  background: #ffebd3;
+  background: url(https://images.squarespace-cdn.com/content/v1/55077c4be4b0f11bacb25666/1607128122463-P9PEPH66YSVNKN4SUBE8/TastingBox-INSTA03.jpg?format=1500w);
+  border: 100px solid #ffebd3;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color:#ffb8d4;
   text-align:center;
@@ -48,7 +50,8 @@ section {
 }
 
 .third {
-  background: #b9dbe7;
+  background:url(https://shop.houseofpies.com/cdn/shop/files/MiniPiesAssortment.jpg?v=1696283004);
+  border: 100px solid #b9dbe7;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color:#ffb8d4;
   text-align:center;
@@ -57,7 +60,8 @@ section {
 }
 
 .fourth {
-  background:#92c3d6;
+  background: url(https://popmenucloud.com/cdn-cgi/image/width%3D1200%2Cheight%3D1200%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/fcqtnvdk/917eae5c-9c33-480e-826a-cafbc96780cb.jpg);
+  border:100px solid #92c3d6;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color:#ffb8d4;
   text-align:center;
@@ -157,7 +161,30 @@ footer{
   display: block;
 }
 
-.marquee{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: large;
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #ff7eb9;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #ff7eb9;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
+
+.back-button:hover {
+  background-color: #ff7eb9;
+  color: #fff;
+}
+
+  .back-button:active {
+    transform: scale(0.95);
+  }
+
+  .about {
+    justify-items: center;
+  }
