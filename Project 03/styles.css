@@ -188,3 +188,14 @@ footer{
   .about {
     justify-items: center;
   }
+
+  @media screen and (max-width: 768px) {
+    .first,
+    .second,
+    .third,
+    .fourth {
+      font-size: 100px;
+      padding-top: 150px;
+      border-width: 50px;
+    }
+  }
